@@ -13,8 +13,8 @@
 <h2></h2><br>
 
 <div align="center">
-    <img height="480" src="assets/light-one.png" alt="Light Preview">
-    <img height="480" src="assets/dark-one.png" alt="Dark Preview">
+    <img height="480" src="assets/light_one.png" alt="Light Preview">
+    <img height="480" src="assets/dark_one.png" alt="Dark Preview">
 </div>
 
 <br>
@@ -317,8 +317,8 @@ also with <kbd>alt, shift, and ctrl</kbd>
     + Alternate Default "Awesome" Buttons (besides Manjaro and Arch)
 
     <div align="center">
-        <img height="480" src="assets/light-two.png" alt="Light Preview">
-        <img height="480" src="assets/dark-two.png" alt="Dark Preview">
+        <img height="480" src="assets/light_two.png" alt="Light Preview">
+        <img height="480" src="assets/dark_two.png" alt="Dark Preview">
     </div>
 
 Please check out the original source for Sweet-B-and-A at https://github.com/rxyhn/dotfiles.
