@@ -6,7 +6,7 @@
 <h2></h2><br>
 
 <p align="center">
-  <b>🌕 Rxyhn's Beautiful & Aesthetic Configuration Files 🌑</b>
+  <b> Sweet B & A for Awesome WM </b>
 </p>
 
 
@@ -19,20 +19,23 @@
 <br>
 <br>
 
-### Hi there! Thanks for dropping by! 🖤
+### Welcome
 <a href="https://awesomewm.org/"><img alt="AwesomeWM Logo" height="150" align = "left" src="https://awesomewm.org/doc/api/images/AUTOGEN_wibox_logo_logo_and_name.svg"></a>
 
-<b>  Beautiful & Aesthetic AwesomeWM Dotfiles with Animation! ✨  </b>
+<b> What is the purpose of Sweet B & A? </b>
 
-Welcome to my AwesomeWM configuration files! 
-You might be here for looking my AwesomeWM configuration files? or looking for **Linux Rice** reference?
-feel free to steal anything from here but don't forget to give me credits :)
+This is primarily a fork of Rxyhn's repository for the purpose of making the rc.lua file
+more streamlined. Relocating what were magic numbers and putting them into a centralized
+variable. This also adds some creature comforts like being able to switch the time
+across the entire theme from standard to imperial, or adding a desktop wallpaper.
 
-AwesomeWM is the most powerful window manager on Linux, 
-Although it takes time and effort to configure it, but I'm very satisfied with the result.
-This is a beautiful user interface isn't it?
+I will have some goals for the end of this project, those will be listed further down.
+Everything here is very much a work in progress, and hasn't been tested extensively.
+It would seem that some things that work for Arch do not work for Manjaro, so I would
+not be surprised if the inverse is also true.
 
-These dotfiles are made with love, for sure.
+I'll also attempt to manually pull from upstream, but if it ends up breaking things
+too often, I may just decide to fully deviate the fork.
 
 <h2></h2><br>
 
@@ -41,10 +44,10 @@ These dotfiles are made with love, for sure.
 | Programs   | Using             |
 | ---------- | ----------------- |
 | WM         | awesome           |
-| OS         | arch linux        |
-| Terminal   | alacritty         |
+| OS         | Manjaro           |
+| Terminal   | alacritty / xfce4 |
 | Shell      | zsh               |
-| Editor     | neovim / vscode   |
+| Editor     | neovim / notepadqq|
 | Compositor | picom             |
 | Launcher   | rofi              |
 
@@ -58,7 +61,7 @@ These dotfiles are made with love, for sure.
   </tr>
   <tr>
     <td align="center">
-      <sup><sub><samp>THIS DOTFILES ARE CONFIGURED AT 1366x768 WITH 96 DPI.</samp></sub></sup>
+      <sup><sub><samp>THESE DOTFILES ARE CONFIGURED FOR 3840x2160 WITH 172 DPI.</samp></sub></sup>
     </td>
   </tr>
 </table>
@@ -84,7 +87,7 @@ These dotfiles are made with love, for sure.
          paru -Sy picom-git alacritty rofi todo-bin acpi acpid acpi_call \
          wireless_tools jq inotify-tools polkit-gnome xdotool xclip maim \
          brightnessctl alsa-utils alsa-tools pulseaudio lm_sensors gpick \
-         mpd mpc mpdris2 ncmpcpp playerctl redshift ffmpeg bluez-utils --needed 
+         mpd mpc mpdris2 ncmpcpp playerctl redshift ffmpeg bluez-utils --needed
          ```
 
       + Services
@@ -114,14 +117,14 @@ These dotfiles are made with love, for sure.
       ```sh
       fc-cache -v
       ```
-   
+
    4. Install my AwesomeWM configuration files
 
       > Clone this repository
 
       ```sh
-      git clone https://github.com/rxyhn/dotfiles.git
-      cd dotfiles
+      git clone https://github.com/MasterMathew/Sweet-B-and-A.git
+      cd Sweet-B-and-A
       ```
 
       > Copy config and binaries files
@@ -158,14 +161,14 @@ These dotfiles are made with love, for sure.
 <details>
 <summary><strong>F E A T U R E S</strong></summary>
 
-<b>These are the features included in my AwesomeWM setups!</b>
+<b>These are the features included in Sweet-B-and-A for AwesomeWM!</b>
 
 
    + Have two themes!
       - <details>
          <summary>Beautiful Day</summary>
 
-         *created by me, comfortable light colorscheme!*
+         *created by [rxyhn](https://github.com/rxyhn), comfortable light colorscheme!*
 
          <div align="left">
          <img src="assets/day.png" width="500px" alt="day colorscheme preview">
@@ -184,7 +187,7 @@ These dotfiles are made with love, for sure.
       - <details>
          <summary>Preview</summary>
 
-         *Aesthetic dashboard with neat grid layout, it's so beautiful!*
+         *Aesthetic dashboard with neat grid layout, it's so clean!*
 
          <div align="left">
          <img src="assets/dashboard.gif" width="500px" alt="dashboard preview">
@@ -213,7 +216,7 @@ These dotfiles are made with love, for sure.
       - <details>
          <summary>Preview</summary>
 
-         *This is so aesthetic isn't it?*
+         *This is aesthetic*
 
          <div align="left">
          <img src="assets/ncmpcpp.gif" width="500px" alt="ncmpcpp preview">
@@ -222,7 +225,7 @@ These dotfiles are made with love, for sure.
    + `Word Clock Lockscreen` with PAM Integration!
       - <details>
 
-         *A beautiful word clock is on the lockscreen!*
+         *A lockscreen word clock*
 
          <summary>Preview</summary>
          <div align="left">
@@ -237,7 +240,7 @@ These dotfiles are made with love, for sure.
    + Applications Launcher
       - <details>
 
-         *Minimalist app launcher!*
+         *Minimalist app launcher*
 
          <summary>Preview</summary>
          <div align="left">
@@ -299,17 +302,22 @@ also with <kbd>alt, shift, and ctrl</kbd>
 
 <h2></h2><br>
 
-### History 🗾
+# Goals
+ - **Priority Objectives**
+  + Stability
+  + Rework screenshots in readme file.
+  + Reorganize code to remove magic numbers
+  + Document rc.lua via comments
+  + Set up a default wallpaper for example purposes
 
-This started since when im feel bored, idk why i do this things, i love it but ahhh nvm, 
-but basically im doing this just for fun and also to satisfy myself ofc,
-and also look for a lot of [stargazers](https://github.com/rxyhn/dotfiles/stargazers) for sure.
-so if you `like` or are `using` these dotfiles you should give this **repo** a `star` right now!
-so i'll be more enthusiastic to make other beautiful and aesthetics things!
+ - **Stretch Goals**
+  + GUI option that interacts with RC.LUA to change configurations and apply
+  + Void Theme
+  + Alternate Default Profile Pictures
+  + Alternate Default "Awesome" Buttons (besides Manjaro and Arch)
 
-Thank you! <3
 
-[![Stargazers over time](https://starchart.cc/rxyhn/dotfiles.svg)](https://starchart.cc/rxyhn/dotfiles)
+Please check out the original source for Sweet-B-and-A at https://github.com/rxyhn/dotfiles.
 
 <h2></h2><br>
 
@@ -317,6 +325,7 @@ Thank you! <3
 
    - **Credits**
       + [ner0z](https://github.com/ner0z)
+      + [rxyhn](https://github.com/rxyhn)
 
    - **Special thanks to**
       + [JavaCafe01](https://github.com/JavaCafe01)
