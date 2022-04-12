@@ -92,8 +92,8 @@ openweathermap_city_id = "" -- City ID
 weather_units = "imperial" -- Unit
 
 -- Wallpaper
-use_wallpaper = true  -- when set to false wallpaper will default to theme color.
-wallpaper_path = "/home/[username]/Pictures/lofi-shop.jpg"
+use_wallpaper = false  -- when set to false wallpaper will default to theme color.
+wallpaper_path = ".config/awesome/theme/wallpapers/matthew-henry.jpg"
 
 -- Dashboard Button (The image the button on the side bar at the very top uses)
 beautiful.awesome_logo = ".config/awesome/theme/assets/icons/awesome.png"
