@@ -304,17 +304,17 @@ also with <kbd>alt, shift, and ctrl</kbd>
 
 # Goals
  - **Priority Objectives**
-  + Stability
-  + Rework screenshots in readme file.
-  + Reorganize code to remove magic numbers
-  + Document rc.lua via comments
-  + Set up a default wallpaper for example purposes
+    + Stability
+    + Rework screenshots in readme file.
+    + Reorganize code to remove magic numbers
+    + Document rc.lua via comments
+    + Set up a default wallpaper for example purposes
 
  - **Stretch Goals**
-  + GUI option that interacts with RC.LUA to change configurations and apply
-  + Void Theme
-  + Alternate Default Profile Pictures
-  + Alternate Default "Awesome" Buttons (besides Manjaro and Arch)
+    + GUI option that interacts with RC.LUA to change configurations and apply
+    + Void Theme
+    + Alternate Default Profile Pictures
+    + Alternate Default "Awesome" Buttons (besides Manjaro and Arch)
 
 
 Please check out the original source for Sweet-B-and-A at https://github.com/rxyhn/dotfiles.
