@@ -13,7 +13,8 @@
 <h2></h2><br>
 
 <div align="center">
-    <img src="assets/Day-Night.png" alt="Rice Preview">
+    <img src="assets/light-one.png" alt="Light Preview">
+    <img src="assets/dark-one.png" alt="Light Preview">
 </div>
 
 <br>
@@ -308,7 +309,6 @@ also with <kbd>alt, shift, and ctrl</kbd>
     + Rework screenshots in readme file.
     + Reorganize code to remove magic numbers
     + Document rc.lua via comments
-    + Set up a default wallpaper for example purposes
 
  - **Stretch Goals**
     + GUI option that interacts with RC.LUA to change configurations and apply
@@ -316,6 +316,10 @@ also with <kbd>alt, shift, and ctrl</kbd>
     + Alternate Default Profile Pictures
     + Alternate Default "Awesome" Buttons (besides Manjaro and Arch)
 
+    <div align="center">
+        <img src="assets/light-two.png" alt="Light Preview">
+        <img src="assets/dark-two.png" alt="Light Preview">
+    </div>
 
 Please check out the original source for Sweet-B-and-A at https://github.com/rxyhn/dotfiles.
 
