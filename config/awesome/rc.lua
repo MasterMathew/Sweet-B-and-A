@@ -6,7 +6,7 @@ pcall(require, "luarocks.loader")
 |__|__|_______|_____|_____|_____|__|_|__|_____|
              ~ AestheticArchPlus ~
             https://github.com/rxyhn
-            https://github.com/richstrickler
+            https://github.com/mastermathew
 --]]
 
 -- 📚 Library
